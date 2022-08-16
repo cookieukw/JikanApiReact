@@ -1,0 +1,16 @@
+div.navbar {
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  bottom: 2%;
+  position: sticky;
+  z-index: 1;
+  display: flex;
+}
+span.navbar-text {
+  display: inline;
+}

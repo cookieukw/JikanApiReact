@@ -1,0 +1,50 @@
+img {
+    width: 120px;
+    height: 200px;
+    background-color: #666;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+}
+.img-container:hover img{
+    -webkit-filter: brightness(50%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.img-container:hover span.title{
+    
+    -webkit-filter: brightness(90%);
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+    color: white;
+    background-color: rgb(196, 20, 58);
+}
+span.title {
+    font-weight: bold;
+    font-size: 1rem;
+    bottom: 3rem;
+    background-color: white;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    padding: 4%;
+    padding-bottom: 7px;
+    border-radius: 8px;
+    max-lines: 3;
+    display: -webkit-box;
+   -webkit-line-clamp: 3; /* number of lines to show */
+           line-clamp: 3; 
+   -webkit-box-orient: vertical;
+}
+
+.img-container {
+    text-align: center;
+}
