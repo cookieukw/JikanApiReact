@@ -1,3 +1,5 @@
+# Demo
+[try it](https://cookieukw.github.io/JikanApiReactDEMO)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
